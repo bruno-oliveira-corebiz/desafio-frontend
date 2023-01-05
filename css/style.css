@@ -1,0 +1,25 @@
+.container-fluid .header {
+    background-color: #2E948A;
+    align-items: center;
+}
+.header .nav-link {
+    color: #fff;
+}
+.header .menu-header ul {
+    justify-content: end;
+}
+.header .header-logo {
+    padding: 10px;
+    width: 30%;
+}
+@media screen and (max-width: 768px) {
+    .header .header-logo {
+        width: 50%;
+    }
+    .header .col-md-6 {
+        text-align: center;
+    }
+    .header .menu-header ul {
+        justify-content: center;
+    }
+}
