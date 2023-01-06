@@ -1,18 +1,103 @@
-.container-fluid .header {
+/* HEADER */
+.header {
     background-color: #2E948A;
     align-items: center;
-}
-.header .nav-link {
-    color: #fff;
-}
-.header .menu-header ul {
-    justify-content: end;
 }
 .header .header-logo {
     padding: 10px;
     width: 30%;
 }
+.header .nav-link {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header .menu-header ul {
+    justify-content: end;
+}
+
+/* BANNER */
+.banner {
+    align-items: center;
+}
+.banner .jumbotron {
+    background-color: #fff;
+    padding: 10% 20%;
+    margin-bottom: 0;
+}
+.banner .banner-imagem {
+    width: 75%;
+    padding: 5%;
+}
+.banner .jumbotron h2 {
+    color: #FF4081;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+.banner .jumbotron p {
+    color: #555555;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    margin: 0;
+    padding: 15px 0;
+}
+.banner .jumbotron p a {
+    background-color: #fff;
+    color: #FF4081;
+    border: 2px solid #FF4081;
+    border-radius: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    padding: 5px 30px;
+}
+
+/* CURSOS */
+.cursos .card-img-top {
+    width: fit-content;
+    height: 270px;
+}
+.cursos .card {
+    text-align: center;
+    align-items: center;
+    border: none;
+}
+.cursos .card-block {
+    padding-top: 40px;
+}
+.cursos .card-title {
+    color: #FF4081;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.cursos .card-text {
+    padding: 10px 50px;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+}
+.cursos .btn {
+    color: #fff;
+    width: 233px;
+    height: 51px;
+    background: #FF4081;
+    border-color: #FF4081;
+    border-radius: 62px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 12px;
+}
+
+/* MOBILE */
 @media screen and (max-width: 768px) {
+    /* HEADER */
     .header .header-logo {
         width: 50%;
     }
@@ -21,5 +106,32 @@
     }
     .header .menu-header ul {
         justify-content: center;
+    }
+
+    /* BANNER */
+    .banner {
+        box-shadow: 0px 5px 5px #e3e3e3;
+        margin-bottom: 30px;
+    }
+    .banner .banner-imagem {
+        width: 100%;
+    }
+    .banner .jumbotron {
+        padding: 10%;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .banner .jumbotron h2 {
+        font-size: 50px;
+    }
+    .banner .jumbotron p {
+        font-size: 22px;
+        padding: 15px 0;
+    }
+    .banner .jumbotron p a {
+        font-size: 22px;
+    }
+    .banner .col-md-6:last-child {
+        display: none;
     }
 }
