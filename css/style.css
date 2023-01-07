@@ -147,6 +147,66 @@
     border-radius: 30px;
     text-decoration: none;
 }
+.curso-destaque {
+    padding: 5%;
+    font-family: 'Ubuntu', sans-serif;
+    align-items: center;
+}
+.curso-destaque .jumbotron {
+    background-color: #fff;
+    padding: 10%;
+    margin-bottom: 0;
+}
+.curso-destaque .jumbotron h2 {
+    color: #FF4081;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+.curso-destaque .jumbotron p {
+    padding: 5% 0;
+}
+.curso-destaque .banner-imagem {
+    padding: 5% 10%;
+}
+.curso-destaque .curso-imagem {
+    text-align: center;
+}
+.curso-video {
+    padding: 2% 5%;
+    font-family: 'Ubuntu', sans-serif;
+    align-items: center;
+    background-color: #F6F6F6;
+}
+.curso-video .jumbotron {
+    background-color: transparent;
+    padding: 10%;
+    margin-bottom: 0;
+}
+.curso-video .jumbotron h2 {
+    color: #FF4081;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+.curso-video .jumbotron p {
+    padding: 5% 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+.curso-video .curso-imagem {
+    width: 462px;
+    height: 261px;
+    border: 2px solid #706f6f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.curso-divisao {
+    width: 100%;
+    height: 5px;
+    background-color: #C4C4C4;
+}
 
 /* DEPOIMENTOS */
 .depoimentos {
@@ -319,6 +379,26 @@
     }
     .page-cursos .divisao-curso {
         height: 3px;
+    }
+    .curso-destaque {
+        text-align: center;
+    }
+    .curso-destaque .curso-imagem img {
+        width: 100%;
+    }
+    .curso-destaque .jumbotron {
+        padding: 5%;
+    }
+    .curso-destaque .jumbotron h2 {
+        font-size: 35px;
+    }
+    .curso-destaque .banner-imagem {
+        padding: 0 10%;
+    }
+    .curso-video {
+        text-align: center;
+        justify-content: center;
+        padding-top: 60px;
     }
 
     /* DEPOIMENTOS */
